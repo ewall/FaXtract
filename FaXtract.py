@@ -11,6 +11,12 @@ Usage:
 - Use command-line option '/report' to send an email report on the received faxes.
 """
 
+__author__ = "Eric W. Wallace <e@ewall.org>"
+__version__ = "$Revision: 0.3 $"
+__date__ = "$Date: 2009/03/13 $"
+__copyright__ = "Copyright (c)2009 Eric W. Wallace & Atlantic Fund Administration"
+__license__ = "Creative Commons Attribution-ShareAlike (http://creativecommons.org/licenses/by-sa/3.0/)"
+
 from datetime import datetime
 import ConfigParser
 import imaplib, email.parser, base64
