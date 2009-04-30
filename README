@@ -1,0 +1,17 @@
+FaXtract v0.3 by ewall 2009-03-17
+(c)2009 Eric W. Wallace/Atlantic Fund Administation
+
+Description: Connects to email mailboxes via IMAP4 and extracts attached fax PDF files.
+
+FaXtract was created to solve a particular problem at my office, in which incoming
+faxes needed to be retrieved from email and put into an imaging system. Thus, it's
+suitability to your purposes will vary.
+
+Usage:
+- Configure FaXtract.ini with the global options and mailboxes you want to check.
+- Use command-line option '/report' to send an email report on the received faxes.
+
+Requirments: Python 2.x
+
+Platforms: Should work on any platform with a Python interpretter, but my intention
+was to use it as a Windows service. (Run setup.cmd to build with Py2EXE.)
